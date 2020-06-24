@@ -1,0 +1,33 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #000;
+}
+
+form {
+  width: 50%;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  background-color: #202020;
+  color: #DCDCDC;
+}
+
+.form-control {
+  background-color: #D3D3D3;
+}
+
+.form-control:focus {
+  background-color: #F0F0F0;
+}
+
+@media screen and (max-width: 1113px) {
+  form {
+    width: 80%;
+  }
+}
